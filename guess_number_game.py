@@ -1,4 +1,4 @@
-import rondom
+import random
 
 numberlist = [
 "NUMBER 1#",
@@ -17,5 +17,5 @@ print("Think of a rondom number between 1 to 10!!!")
 answer = input("When you do, to let me know please type YES! :")
 
 if answer == "yes":
-    x = rondom.randrange(1,10)
+    x = random.randrange(1,10)
     print(numberlist[x])
