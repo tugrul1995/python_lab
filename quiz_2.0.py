@@ -15,9 +15,12 @@ if answer1 == 'a':
     print("Great Job!")
 else:
     print("Please Try again")
-while answer1 == 'a':
+while answer1 != 'a':
     print("what is the sum of 2 + 2 = ?")
-    break
+    answer1 = input()
+    if answer1  == 'a':
+        print("CORRECT THIS TIME  SMART GUY...")
+
 
 #QUESTION NUMBER ONE
 print("Question_2")
@@ -33,6 +36,8 @@ if answer2 == 'c':
     print("You are very smart!")
 else:
     print("WRONG! Practice multiplying more..")
-while answer2 == 'c':
+while answer2 != 'c':
     print("WRONG! ANSWER AGAIN BUT CORRECT...")
-    break
+    answer2 = input()
+    if answer2 == 'c':
+        print("CORRECT THIS TIME!")
